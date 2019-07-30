@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tweetsActions countChange Dispatches the correct action and payload 1`] = `
+Array [
+  Object {
+    "type": "CHANGE_COUNT",
+    "value": "value",
+  },
+]
+`;
+
+exports[`tweetsActions loadTweets Dispatches the correct action and payload 1`] = `
+Array [
+  Object {
+    "type": "LOAD_TWEETS",
+  },
+]
+`;
+
+exports[`tweetsActions loadTweetsFailure Dispatches the correct action and payload 1`] = `
+Array [
+  Object {
+    "error": "error",
+    "type": "LOAD_TWEETS_FAILURE",
+  },
+]
+`;
+
+exports[`tweetsActions searchChange Dispatches the correct action and payload 1`] = `
+Array [
+  Object {
+    "type": "CHANGE_SEARCH",
+    "value": "value",
+  },
+]
+`;
+
+exports[`tweetsActions sort Dispatches the correct action and payload 1`] = `
+Array [
+  Object {
+    "sortBy": "created_at",
+    "sortOrder": -1,
+    "type": "SORT",
+  },
+]
+`;
+
+exports[`tweetsActions tweetsLoaded Dispatches the correct action and payload 1`] = `
+Array [
+  Object {
+    "append": true,
+    "payload": "value",
+    "type": "TWEETS_LOADED",
+  },
+]
+`;
+
+exports[`tweetsActions typeChange Dispatches the correct action and payload 1`] = `
+Array [
+  Object {
+    "type": "CHANGE_TYPE",
+    "value": "value",
+  },
+]
+`;

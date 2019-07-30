@@ -3,13 +3,47 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "test": "jest",
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "server": "nodemon --exec node server/server.js "
   },
   "dependencies": {
-    "next": "9.0.2",
-    "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "@material/react-button": "^0.14.1",
+    "@material/react-linear-progress": "^0.15.0",
+    "@material/react-radio": "^0.15.0",
+    "@material/react-select": "^0.15.0",
+    "@material/react-snackbar": "^0.15.0",
+    "@material/react-text-field": "^0.15.0",
+    "@rmwc/data-table": "^5.6.0",
+    "@rmwc/linear-progress": "^5.6.0",
+    "@zeit/next-sass": "^1.0.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "next": "^9.0.2",
+    "node-sass": "^4.12.0",
+    "nodemon": "^1.19.1",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.1.0",
+    "redux": "^4.0.4",
+    "redux-observable": "^1.1.0",
+    "rxjs": "^6.5.2",
+    "twitter-stream-api": "^0.5.2",
+    "ws": "^7.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.5.5",
+    "@testing-library/react": "^8.0.7",
+    "babel-jest": "24.1.0",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "24.1.0",
+    "react-addons-test-utils": "15.6.2",
+    "react-test-renderer": "16.4.2",
+    "redux-devtools-extension": "^2.13.8",
+    "redux-mock-store": "^1.5.3"
   }
 }

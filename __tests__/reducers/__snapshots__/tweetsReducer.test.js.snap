@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`tweetsReducer CHANGE_COUNT is correct 1`] = `
+Object {
+  "count": "test",
+  "error": null,
+  "search": "",
+  "sort_by": "created_at",
+  "sort_order": 1,
+  "tweets": Array [],
+  "tweets_loading": false,
+  "type": false,
+}
+`;
+
+exports[`tweetsReducer CHANGE_SEARCH is correct 1`] = `
+Object {
+  "count": "10",
+  "error": null,
+  "search": "test",
+  "sort_by": "created_at",
+  "sort_order": 1,
+  "tweets": Array [],
+  "tweets_loading": false,
+  "type": false,
+}
+`;
+
+exports[`tweetsReducer CHANGE_TYPE is correct 1`] = `
+Object {
+  "count": "10",
+  "error": null,
+  "search": "",
+  "sort_by": "created_at",
+  "sort_order": 1,
+  "tweets": Array [],
+  "tweets_loading": false,
+  "type": "test",
+}
+`;
+
+exports[`tweetsReducer LOAD_TWEETS is correct 1`] = `
+Object {
+  "count": "10",
+  "error": null,
+  "search": "",
+  "sort_by": "created_at",
+  "sort_order": 1,
+  "tweets": Array [],
+  "tweets_loading": true,
+  "type": false,
+}
+`;
+
+exports[`tweetsReducer LOAD_TWEETS_FAILURE,  is correct 1`] = `
+Object {
+  "count": "10",
+  "error": "error",
+  "search": "",
+  "sort_by": "created_at",
+  "sort_order": 1,
+  "tweets": Array [],
+  "tweets_loading": false,
+  "type": false,
+}
+`;
+
+exports[`tweetsReducer SORT,  is correct 1`] = `
+Object {
+  "sort_by": "created_at",
+  "sort_order": 1,
+  "tweets": Array [],
+}
+`;
+
+exports[`tweetsReducer SORT,  is correct 2`] = `
+Object {
+  "sort_by": "created_at",
+  "sort_order": -1,
+  "tweets": Array [],
+}
+`;
+
+exports[`tweetsReducer TWEETS_LOADED,  is correct 1`] = `
+Object {
+  "error": null,
+  "tweets": Array [
+    "payload",
+  ],
+  "tweets_loading": false,
+}
+`;
+
+exports[`tweetsReducer is correct 1`] = `
+Object {
+  "count": "10",
+  "error": null,
+  "search": "",
+  "sort_by": "created_at",
+  "sort_order": 1,
+  "tweets": Array [],
+  "tweets_loading": false,
+  "type": false,
+}
+`;
